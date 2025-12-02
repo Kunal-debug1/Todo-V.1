@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.app-container {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.todo-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 8px;
+}

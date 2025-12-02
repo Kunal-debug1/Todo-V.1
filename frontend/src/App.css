@@ -1,0 +1,54 @@
+.app {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #f9fafc;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-task input, .controls input, select, button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.add-task button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
